@@ -28,4 +28,4 @@ schema:
   threads: int?
 startup: application
 boot: auto
-image: "ghcr.io/hassio-addons/base/{arch}:latest" 
+image: "ghcr.io/hassio-addons/base/amd64" 
