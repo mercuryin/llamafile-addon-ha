@@ -1,0 +1,7 @@
+name: Llamafile Add-ons
+url: https://github.com/mercuryin/llamafile-addon-ha
+maintainer: mercuryin
+addons:
+  - name: Llamafile
+    slug: llamafile
+    description: Run language models locally with llamafile 

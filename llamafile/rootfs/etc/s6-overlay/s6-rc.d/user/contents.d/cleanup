@@ -1,0 +1,4 @@
+#!/command/with-contenv sh
+
+# Ejecutar script de limpieza al detener el contenedor
+/app/cleanup.sh 
