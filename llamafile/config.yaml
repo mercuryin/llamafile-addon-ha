@@ -13,7 +13,7 @@ panel_icon: "mdi:robot"
 ports:
   8080/tcp: 8080
 ports_description:
-  8080: "Web interface and API"
+  "8080/tcp": "Web interface and API"
 map:
   - config:rw
   - ssl:rw
@@ -28,4 +28,4 @@ schema:
   threads: int?
 startup: application
 boot: auto
-image: "mercuryin/{arch}-addon-llamafile" 
+image: "ghcr.io/hassio-addons/base/{arch}" 

@@ -6,7 +6,8 @@ RUN apk add --no-cache \
     curl \
     wget \
     bash \
-    s6-overlay
+    s6-overlay \
+    unzip
 
 # Crear directorio de trabajo
 WORKDIR /app
